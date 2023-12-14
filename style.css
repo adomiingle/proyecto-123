@@ -1,0 +1,18 @@
+h3{
+    font-size: 30px !important;
+}
+
+.btn-success:hover{
+    background-color: darkblue;
+}
+
+canvas{
+    animation-name: brillos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes brillos{
+    from{box-shadow: 3px 3px 38px rgb(55, 54, 54)}
+    to{box-shadow: 3px 3px 38px red}
+}
